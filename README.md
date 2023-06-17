@@ -1,4 +1,4 @@
-### Purpose: To modularize the assignment notebook from ERA - Session 7 into script files and properly import the functions into a new notebook (S5.ipynb) and run to reproduce results.
+### Purpose: Deep dive into coding and applying different blocks in 7 steps.
 
 ## Based on MNIST dataset
 ### Create a simple Convolutional Neural Network model and predict
@@ -15,7 +15,7 @@ About the file structure</br>
 |__era1_S7_1_BasicSkeleton.ipynb<br/>
 |__era1_S7_2_Batch_Normalization.ipynb<br/>
 |__era1_S7_3_Dropout.ipynb<br/>
-|__era1_S7_4_ Fully Connected layer.ipynb<br/>
+|__era1_S7_4_Fully_Connected_layer.ipynb<br/>
 |__era1_S7_5_Augmentation.ipynb<br/>
 |__era1_S7_6_LRScheduler.ipynb<br/>
 |__model.py<br/>
@@ -33,23 +33,29 @@ jupyter notebook
 ```
 2. Upload the notebook folder ***era_v1_session7_pankaja*** to google colab at [colab.google.com](https://colab.research.google.com/) and run it on colab<br/>
 
+###
 **NOTE:** Follow along the **S5.ipynb** - notebook cells and run sequentially to see the outputs.
 
-### Notebook execution sequence of sections is as follows:
+### Step 0:
 **File used: era1_S7_0_BasicSetup.ipynb**
- 1. Under section **Install Libraries**, run the cell(s) - to install required libraries 
- 2. Under section **Import Libraries** run the cell(s)
-        - to import the script functions from model.py, utils.py
- 3. Under section **Download train and test dataset** run the cell(s)
-        - it will automatically dowload and process the [MNIST](http://yann.lecun.com/exdb/mnist/) dataset for you, mounts the pytorch mnist dataset in the `../data` folder inside the container for our purposes, so that we do not need to download it at training time. 
- 4. Under section **Plot random sample of train data**, run the cell(s)
-        - to plot random sample in a 3 X 4 grid, to visualize the sample data
- 5. Under section **Train the model on train data and predict on test data**, run the cell(s)
-        - to train a simple Convolutional Neural Network model on the train data and predict for the test data 
- 6. Under section **Plot metrics - training losses and accuracies, along with test losses and test accuracies**, run the cell(s)
-        - to plot the losses and accuracies of training and testing datasets
- 7. Under section **Display model summary**, run cell(s)
-        - to display the model summary on a 28 X 28 with one gray channel on which the model is structured for.
+ 
+### Step 1:
+**File used: era1_S7_1_BasicSkeleton.ipynb**
+
+### Step 2:
+**File used: era1_S7_2_Batch_Normalization.ipynb**
+
+### Step 3:
+**File used: era1_S7_3_Dropout.ipynb**
+
+### Step 4:
+**File used: era1_S7_4_Fully_Connected_layer.ipynb**
+
+### Step 5:
+**File used: era1_S7_5_Augmentation.ipynb**
+
+### Step 6:
+**File used: era1_S7_6_LRScheduler.ipynb**
 
 ### Python script files - details:
 **model.py** - This has Model_1, Model_2, Model_3, Model_4, Model_5, Model_6, Model_7 <br />
