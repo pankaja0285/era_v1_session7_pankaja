@@ -574,7 +574,7 @@ def create_data_loader(data, batch_size=512, shuffle=False, num_workers=2):
 
 
 def train_and_predict(nn_model, device, train_loader, test_loader, 
-                      num_epochs=20, lr=0.01, max_lr=0.015, use_LRScheduler = True):
+                      num_epochs=20, lr=0.01, max_lr=0.015, use_LRScheduler = False):
     """
     Train the model on training data and predict on test data
     :param device: device name
