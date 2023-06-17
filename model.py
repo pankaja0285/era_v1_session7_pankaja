@@ -218,7 +218,7 @@ class Model_4(nn.Module):
 
 class Model_5(nn.Module):
     def __init__(self, dropout_value=0.03):
-        super(Model_4, self).__init__()
+        super(Model_5, self).__init__()
         # Input Block
         self.conv1 = nn.Sequential(
             nn.Conv2d(in_channels=1, out_channels=8, kernel_size=(3, 3), padding=0, bias=False),
