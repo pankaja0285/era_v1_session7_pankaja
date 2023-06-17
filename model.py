@@ -610,5 +610,5 @@ def train_and_predict(nn_model, device, train_loader, test_loader,
                                          test_losses, test_acc)
     except Exception as ex:
         print(f"Error occurred at step - {step},\n{ex}")
-    return nn_model, train_losses, train_acc, test_losses, test_acc
+    return train_losses, train_acc, test_losses, test_acc
     
