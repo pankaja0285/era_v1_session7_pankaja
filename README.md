@@ -32,6 +32,19 @@ One of 2 ways to run any of the notebooks, for instance **era1_S7_0_BasicSetup.i
 jupyter notebook
 ```
 2. Upload the notebook folder ***era_v1_session7_pankaja*** to google colab at [colab.google.com](https://colab.research.google.com/) and run it on colab<br/>
+```
+from google.colab import drive
+drive.mount('/gdrive')
+
+%cd /gdrive/My\ Drive/ERA-V1/era_v1_session7_pankaja
+import os
+cwd = os.getcwd()
+cwd
+
+!pip install torchsummary
+
+# Then the rest of the notebook from Import libraries etc.,
+```
 
 ###
 **Context:** The drill down analysis starts from Step 0 through Step 6 and the analysis is laid out as Target, Results and Analysis. <br />
