@@ -172,7 +172,7 @@ Analysis:
 
 ### Python script files - details:
 **model.py** - This has Model_1, Model_2, Model_3, Model_4, Model_5, Model_6, Model_7 <br />
-in all 7 models to achieve an train accuracy = 99.44 and test accuracy = 99.31
+in all 7 models to achieve as the final model Model_7 a train accuracy of 99.44 and test accuracy of 99.31
 
 *The illustration below shows how many layers are in this Convolution Neural Network that we have based upon and its details:-*
 ![CNN diagram used](cnn_28_x_28.png)
